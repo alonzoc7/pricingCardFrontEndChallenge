@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 30px;
+}
+h2,h3, p {
+  margin: 0;
+}
+#card {
+  height: 400px;
+  width: 650px;
+  background-color: #f2f0eb;
+  box-shadow: 2px 2px 5px 5px rgba(204,204,204,1);
+  border-radius: 7px;
+  overflow: hidden;
+}
+#cardTop {
+  height: 45%;
+  width: 100%;
+  padding: 25px;
+}
+#cardBottom {
+  height: 55%;
+  width: 100%;
+  color: #f2f0eb;
+}
+#leftBox {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #208583;
+  padding: 25px;
+}
+#rightBox {
+  height: 100%;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2ab2af;
+  padding: 25px;
+}
+button {
+  background-color: #c0df34;
+  color: #f2f0eb;
+  padding: 13px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 5px 5px 5px -2px rgba(79,81,82,1);
+  font-size: 1rem;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #a7c22f;
+}
+#cardTop h2 {
+  color: #2ab2af;
+  margin-bottom: 20px;
+}
+#cardTop h3 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+#cardTop p {
+  color: #868687;
+  margin-right: 10px;
+}
+
+#leftBox h3 {
+  margin-bottom: 20px;
+}
+
+#price {
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+#perMonth {
+  display: inline-block;
+  vertical-align: sub;
+  color: #30c7c4;
+}
+#access {
+  margin-bottom: 20px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
